@@ -49,7 +49,7 @@ def health():
 
 # IMPORTANT:
 # Store BOT_TOKEN in Render Environment Variables.
-BOT_TOKEN = os.environ.get("8940470600:AAFARfi2d9hUuRKc10gI6hqBaG8ZGm6u9QA")
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN environment variable is missing.")
